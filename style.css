@@ -391,3 +391,12 @@ header .container {
     font-size: 0.8rem;
   }
 }
+::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: transparent;
+}
+
+/* Menghilangkan thumb scroll bar */
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
